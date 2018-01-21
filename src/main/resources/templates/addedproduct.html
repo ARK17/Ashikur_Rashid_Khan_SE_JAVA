@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Added product</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <div th:replace="fragments/header :: header-css"/>
+</head>
+<body>
+<div th:replace="fragments/header :: header"/>
+<div class="container">
+    <h1>Result</h1>
+    <p th:text="'id: ' + ${addproduct.productCode}" />
+    <p th:text="'content: ' + ${greeting.content}" />
+    <a href="/greeting">Submit another message</a>
+</div>
+
+</body>
+</html>
