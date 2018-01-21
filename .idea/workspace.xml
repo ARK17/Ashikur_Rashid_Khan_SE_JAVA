@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e893394-f109-4c54-8890-9d20d14d3c9a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ark/products/Product.java" afterPath="$PROJECT_DIR$/src/main/java/com/ark/products/Product.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ark/products/ProductController.java" afterPath="$PROJECT_DIR$/src/main/java/com/ark/products/ProductController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/addedproduct.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/addedproduct.html" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/addproducts.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/addproducts.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/displayallproducts.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/displayallproducts.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ark/products/Product.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
-              <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+              <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -95,8 +90,8 @@
       <file leaf-file-name="addproducts.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addproducts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="44" column="43" lean-forward="false" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+            <state relative-caret-position="253">
+              <caret line="25" column="83" lean-forward="true" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
               <folding />
             </state>
           </provider>
@@ -467,12 +462,12 @@
       <option name="presentableId" value="Default" />
       <updated>1516541292054</updated>
       <workItem from="1516541298039" duration="15163000" />
-      <workItem from="1516565950897" duration="1566000" />
+      <workItem from="1516565950897" duration="2011000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16729000" />
+    <option name="totallyTimeSpent" value="17174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -786,14 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ark/products/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/displayallproducts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
@@ -804,10 +791,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ark/products/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addproducts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="44" column="43" lean-forward="false" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+        <state relative-caret-position="253">
+          <caret line="25" column="83" lean-forward="true" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
           <folding />
         </state>
       </provider>
