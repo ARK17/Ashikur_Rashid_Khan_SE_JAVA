@@ -8,12 +8,26 @@ public class DefaultController {
     public String home1() {
         return "/home";
     }
-
     @GetMapping("/home")
     public String home() {
         return "/home";
     }
-
+    @GetMapping("/dashboard")
+    public String dashboard() {
+        return "/dashboard";
+    }
+    @GetMapping("/addproducts")
+    public String addproducts() {
+        return "/addproducts";
+    }
+    @GetMapping("/displayallproducts")
+    public String displayAll() {
+        return "/displayallproducts";
+    }
+    @GetMapping("/updateproducts")
+    public String updateProduct() {
+        return "/updateproducts";
+    }
     @GetMapping("/admin")
     public String admin() {
         return "/admin";
