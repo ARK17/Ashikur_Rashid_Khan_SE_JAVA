@@ -1,6 +1,7 @@
 package com.ark.products;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
@@ -9,7 +10,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@RestController
+//@RestController
+@Controller
 public class ProductController {
     @Autowired
     private ProductService productService;
@@ -32,15 +34,17 @@ public class ProductController {
         model.addAttribute("product", new Product());
         return "addproducts";
     }
-    @RequestMapping(method= RequestMethod.POST, value = "/addproduct")
-    public String addProduct(@RequestBody Product product){
+    @PostMapping("/addproduct")
+    public String productSubmit(@ModelAttribute Product product) {
         productService.addProduct(product);
         return "addedproduct";
     }
-  /*  @PostMapping("/addproduct")
-    public String greetingSubmit(@ModelAttribute Product product) {
+   /* @RequestMapping(method= RequestMethod.POST, value = "/addproduct")
+    public String addProduct(@RequestBody Product product){
+        productService.addProduct(product);
         return "addedproduct";
     }*/
+
 
     @RequestMapping(method= RequestMethod.PUT,value = "/products/{productCode}")
     public void updateProduct(@RequestBody Product product, @PathVariable String productCode){

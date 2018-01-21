@@ -7,16 +7,11 @@ import javax.validation.constraints.Size;
 @Entity
 public class Product {
     @Id
-    @Size(min=4)
     private String productCode; // Primary key
-    @Size(min=2)
     private String name;
     private String productType;
-    @Size(min=1)
     private int quantity;
-    @Size(min=1)
     private double price;
-    @Size(min=1)
     private double profitPercentage;
     private String description;
 

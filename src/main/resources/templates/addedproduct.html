@@ -9,9 +9,9 @@
 <div th:replace="fragments/header :: header"/>
 <div class="container">
     <h1>Result</h1>
-    <p th:text="'id: ' + ${addproduct.productCode}" />
-    <p th:text="'content: ' + ${greeting.content}" />
-    <a href="/greeting">Submit another message</a>
+    <p th:text="'code: ' + ${product.productCode}" />
+    <p th:text="'name: ' + ${product.name}" />
+    <a href="/addproduct">Add another product</a>
 </div>
 
 </body>
